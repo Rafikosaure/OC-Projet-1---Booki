@@ -2,12 +2,14 @@ body {
     font-family: 'Raleway', sans-serif;
     min-width: 992 px;
     max-width: 1400px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 .logo_booki_header {
@@ -30,6 +32,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    margin-right: 10px;
     margin-left: auto;
     height: 70px;
     padding-right: 10px;
@@ -41,13 +44,144 @@ header {
     height: 100%;
     text-align: center;
     font-weight: bold;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
 
-/* Attention : bordure bleue au dessus en desktop, mais en dessous en mobile ! */
+/* Attention : bordure bleue au dessus en desktop, 
+mais bien la placer en dessous en mobile ! */
 .header_button:hover {
     border-top: solid 5px #0065FC;
     color: #0065FC;
 }
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.h2_formulaire_de_recherche {
+    margin-top: -10px;    
+}
+
+.h2_formulaire_filtres {
+    font-weight: bold;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: black;
+}
+
+.section_formulaire_de_recherche {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: solid 1px black; */
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.div_icone_recherche {
+    background-color: #F2F2F2;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.formulaire_champ_de_saisie {
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid 1px #F2F2F2;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.formulaire_bouton_rechercher {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #0065FC;
+    border: solid 1px #0065FC;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.section_filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -12px;
+}
+
+.button_filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 20px;
+    background-color: white;
+    border: solid 2px #F2F2F2;
+    border-radius: 30px;
+    width: auto;
+    height: 50px;
+    color: #0065FC;
+}
+
+.button_filters:hover {
+    background-color: #DEEBFF;
+}
+
+.formulaire_span_de_fin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    align-items: center;
+}
+
+.div_vignette_info {
+    border: solid 3px #F2F2F2;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+.vignette_info {
+    margin-top: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0065FC;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.commentaire_span_de_fin {
+    margin-left: 10px;
+}
+
 

@@ -1,6 +1,5 @@
 body {
     font-family: 'Raleway', sans-serif;
-    min-width: 992 px;
     max-width: 1400px;
     margin-left: 30px;
     margin-right: 30px;
@@ -9,7 +8,6 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    /* border: solid 1px black; */
 }
 
 .logo_booki_header {
@@ -82,7 +80,6 @@ h2 {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
-    /* border: solid 1px black; */
 }
 
 .formulaire {
@@ -115,15 +112,33 @@ h2 {
 }
 
 .formulaire_bouton_rechercher {
+    display: block;
+    line-height: 50%;
     height: 50px;
     width: 150px;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
     background-color: #0065FC;
     border: solid 1px #0065FC;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.icone_loupe_rechercher {
+    display : none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .icone_loupe_rechercher {
+        display : block;
+    }
+
+    .texte_bouton_rechercher {
+        display: none;
+    }
+
 }
 
 .section_filtres {

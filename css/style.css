@@ -64,6 +64,14 @@ h2 {
     font-weight: normal;
 }
 
+.h2_style_gras {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: normal;
+}
+
 .h2_formulaire_de_recherche {
     margin-top: -10px;    
 }
@@ -115,7 +123,7 @@ h2 {
     display: block;
     line-height: 50%;
     height: 50px;
-    width: 150px;
+    width: 140px;
     background-color: #0065FC;
     border: solid 1px #0065FC;
     border-top-right-radius: 20px;
@@ -201,3 +209,273 @@ h2 {
 }
 
 
+
+
+/* Code CSS du corps de texte */
+
+
+
+
+/* Ici : section "Hébergements" */
+head {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_hebergements_et_populaires {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 730px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section_hebergements {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 65%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    min-width: 800px;
+    padding-right: 10px;
+}
+
+.centrage_cartes {
+    display: flex;
+    justify-content: center;
+}
+
+.div_toutes_les_cartes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+
+.div_serie_de_trois_cartes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.titre1_section_hebergements_marseille {
+    text-indent: 32px;
+}
+
+.carte_hebergements {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px 15px 0 0;
+    transition: 0.3s;
+    width: 100%;
+    height: 30%;
+    margin: 15px;
+}
+
+.carte_hebergements:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.carte_clic {
+    text-decoration: none;
+    color: black;
+}
+
+.image_carte_hebergement {
+    border-radius: 15px 15px 0 0;
+    border: solid 5px white;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card_description {
+    display: flex;
+    flex-direction: column;
+    text-indent: 10px;
+    margin-top: -4px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    line-height: 2px;
+    width: 100%;
+    border: solid 5px white;
+    font-size: 13px;
+}
+
+.stars_in_blue {
+    color: #0065FC;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    text-indent: 0%;
+}
+
+.star_in_grey {
+    color: #F2F2F2;
+}
+
+.lien_hebergements_afficher_plus {
+    text-decoration: none;
+    color: black;
+}
+
+.hebergements_afficher_plus {
+    padding-top: 27px;
+    margin-left: 38px;
+    font-weight: bold;
+}
+
+
+/* Ici : section "Les plus populaires" */
+
+.section_article {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 30%;
+    min-width: 390px;
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.div_titre_les_plus_populaires_avec_icone_courbe_montante {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.div_icone_courbe_montante {
+    color: #0065FC;
+    display: flex;
+    align-items: center;
+}
+
+.conteneur_cartes_les_plus_populaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;  
+}
+
+.carte_clic_populaires {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.carte_les_plus_populaires {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px 15px 15px 15px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 30%;
+    margin: 15px;
+}
+
+.carte_les_plus_populaires:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.image_carte_plus_populaires {
+    border-radius: 15px 0 0 15px;
+    border: solid 5px white;
+    width: 40%;
+    min-width: 40%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card_description_text_plus_populaires {
+    display: table-cell;
+    height: 80%;
+    vertical-align: top;
+    line-height: 5px;
+}
+
+.h2_card_description_text_plus_populaires {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.card_description_plus_populaires {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    width: 60%;
+    background-color: white;
+    border: solid 5px white;
+    border-radius: 0 15px 15px 0;
+    font-size: 13px;
+    height: 160px;
+    
+}
+
+.stars_in_blue_populaires {
+    color: #0065FC;
+    height: 20%;
+}
+
+
+
+
+/* Media queries pour les écrans "smartphone" (en travaux) */
+/*
+@media screen and (max-width: 768px) {
+
+    .div_serie_de_trois_cartes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_hebergements {
+        width: 80%;
+        margin-right: 38px;
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_hebergements_et_populaires {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .carte_hebergements {
+        height: 95%;
+    }
+    
+    .titre1_section_hebergements_marseille {
+        margin-left: -80px;
+    }
+
+    .centrage_cartes {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
+*/
+
+
+/* Ici : media queries pour les écrans "tablette" */
+/*
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+*/

@@ -5,6 +5,8 @@ body {
     margin-right: 30px;
 }
 
+
+/* Début de page : header & section "Formulaire" */
 header {
     display: flex;
     flex-direction: row;
@@ -466,7 +468,7 @@ main {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 55px;
 }
 
 .Activites_a_Marseille {
@@ -518,56 +520,50 @@ main {
 }
 
 
-
-
-
-
-
-/* Media queries pour les écrans "smartphone" (en travaux) */
-/*
-@media screen and (max-width: 768px) {
-
-    .div_serie_de_trois_cartes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section_hebergements {
-        width: 80%;
-        margin-right: 38px;
-        padding-top: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .section_hebergements_et_populaires {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .carte_hebergements {
-        height: 95%;
-    }
-    
-    .titre1_section_hebergements_marseille {
-        margin-left: -80px;
-    }
-
-    .centrage_cartes {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        max-width: 400px;
-    }
-
+/* Fin du corps de texte (main) */
+/* Ici : pied de page (footer) */
+footer {
+    width: auto;
 }
-*/
 
-
-/* Ici : media queries pour les écrans "tablette" */
-/*
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    
+.div_footer {
+    background-color: #F2F2F2;
+    height: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 1220px;
+    display: flex;
+    flex-direction: row;
 }
-*/
+
+.footer_titre {
+    font-weight: bold;
+}
+
+.footer_a_propos {
+    width: 33%;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.footer_nos_hebergements {
+    width: 33%;
+}
+
+.footer_assistance {
+    width: auto;
+}
+
+.footer_list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 35px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: black;
+}
+
+
+

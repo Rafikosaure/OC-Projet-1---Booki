@@ -242,12 +242,13 @@ form {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .section_hebergements_et_populaires {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     height: 730px;
     margin-left: 20px;
     margin-right: 20px;
@@ -259,24 +260,20 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    border-radius: 15px;
-    width: 65%;
+    border-radius: 20px;
+    width: 70%;
     padding-top: 25px;
     padding-bottom: 30px;
     min-width: 800px;
     padding-right: 10px;
-}
-
-.centrage_cartes {
-    display: flex;
-    justify-content: center;
+    margin-right: 10px;
 }
 
 .div_toutes_les_cartes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95%;
+    width: 100%;
 }
 
 .div_serie_de_trois_cartes {
@@ -287,14 +284,15 @@ main {
 }
 
 .titre1_section_hebergements_marseille {
-    text-indent: 32px;
+    text-indent: 40px;
+    font-weight: 700;
 }
 
 .carte_hebergements {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px;
     transition: 0.3s;
-    width: 246px;
+    width: 245px;
     height: fit-content;
     margin: 20px;
 }
@@ -311,7 +309,7 @@ main {
 }
 
 .image_carte_hebergement {
-    border-radius: 15px 15px 0 0;
+    border-radius: 20px 20px 0 0;
     border: solid 5px white;
     width: 100%;
     height: 120px;
@@ -324,8 +322,8 @@ main {
     text-indent: 10px;
     margin-top: -4px;
     background-color: white;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     line-height: 2px;
     width: 100%;
     border: solid 5px white;
@@ -352,8 +350,8 @@ main {
 }
 
 .hebergements_afficher_plus {
-    padding-top: 27px;
-    margin-left: 38px;
+    padding-top: 10px;
+    margin-left: 44px;
     font-weight: bold;
 }
 
@@ -363,7 +361,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 20px;
     width: 30%;
     min-width: 390px;
     margin-left: 20px;
@@ -375,8 +373,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 37px;
+    padding-right: 42px;
+    font-weight: 700;
 }
 
 .div_icone_courbe_montante {
@@ -401,11 +400,11 @@ main {
 
 .carte_les_plus_populaires {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px;
     transition: 0.3s;
     display: flex;
     flex-direction: row;
-    width: 350px;
+    width: 343px;
     height: fit-content;
     margin: 15px;
 }
@@ -415,9 +414,9 @@ main {
 }
 
 .image_carte_plus_populaires {
-    border-radius: 15px 0 0 15px;
+    border-radius: 20px 0 0 20px;
     border: solid 5px white;
-    width: 40%;
+    width: 35%;
     min-width: 40%;
     height: 160px;
     object-fit: cover;
@@ -441,13 +440,15 @@ main {
 .card_description_plus_populaires {
     display: flex;
     flex-direction: column;
-    padding-left: 5px;
-    width: 60%;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 65%;
     background-color: white;
     border: solid 5px white;
-    border-radius: 0 15px 15px 0;
-    font-size: 13px;
-    height: auto;    
+    border-radius: 0 20px 20px 0;
+    font-size: 14px;
+    height: auto;
 }
 
 .stars_in_blue_populaires {
@@ -456,25 +457,22 @@ main {
     justify-content: start;
     align-items: flex-end;
     height: 30px;
+    line-height: 0;
     text-indent: 1px;
     margin-bottom: 8px;
 }
 
 
 /* Ici : section "Activités à Marseille" */
-.conteneur_section_Activites_a_Marseille {
+.Activites_a_Marseille {
+    display: flex;
+    flex-direction: column;
     width: auto;
     min-width: 1220px;
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 55px;
-}
-
-.Activites_a_Marseille {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 
 .ensemble_cartes_Activites_a_Marseille {
@@ -493,7 +491,7 @@ main {
 
 .carte_Activites_a_Marseille {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px;
     transition: 0.3s;
     width: 22%;
     height: fit-content;
@@ -506,52 +504,41 @@ main {
 
 .photo_Marseille {
     object-fit: cover;
-    border-radius: 15px 15px 0 0;
+    border-radius: 20px 20px 0 0;
     width: 100%;
     height: 350px;
 }
 
 .description_carte_Activites_a_Marseille {
     width: 100%;
-    height: 10%;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 20px 20px;
     height: 56px;
     text-indent: 16px;
+    background-color: white;
 }
 
 
 /* Fin du corps de texte (main) */
 /* Ici : pied de page (footer) */
 footer {
+    display: flex;
+    flex-direction: row;
     width: auto;
-}
-
-.div_footer {
     background-color: #F2F2F2;
-    height: 260px;
+    height: 225px;
     margin-left: 20px;
     margin-right: 20px;
     min-width: 1220px;
-    display: flex;
-    flex-direction: row;
 }
 
 .footer_titre {
     font-weight: bold;
 }
 
-.footer_a_propos {
-    width: 33%;
+.footer_section {
     padding-left: 70px;
-    padding-top: 50px;
-}
-
-.footer_nos_hebergements {
-    width: 33%;
-}
-
-.footer_assistance {
-    width: auto;
+    padding-top: 30px;
+    flex: 1;
 }
 
 .footer_list {

@@ -330,6 +330,10 @@ main {
     font-size: 13px;
 }
 
+.€_bold {
+    font-weight: bold;
+}
+
 .stars_in_blue {
     color: #0065FC;
     display: flex;

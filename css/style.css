@@ -145,6 +145,10 @@ form {
 
 }
 
+.formulaire_bouton_rechercher:hover {
+    background-color: blue;
+}
+
 .section_filtres {
     display: flex;
     flex-direction: row;
@@ -200,7 +204,7 @@ form {
     background-color: #DEEBFF;
 }
 
-.formulaire_span_de_fin {
+.formulaire_div_de_fin {
     display: flex;
     flex-direction: row;
     margin-top: 18px;
@@ -225,12 +229,10 @@ form {
     font-size: 19px;
 }
 
-.commentaire_span_de_fin {
+.commentaire_div_de_fin {
     margin-left: 11px;
     font-weight: 400;
     font-size: 16px;
-    height: 19px;
-    line-height: 19px;
 }
 
 

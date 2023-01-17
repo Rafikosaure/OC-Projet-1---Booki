@@ -39,7 +39,7 @@
             
             <input class="formulaire_champ_de_saisie" type="text" name="hébergement" id="hébergement" value="Marseille, France">
             
-            <button class="formulaire_bouton_rechercher" type="submit">
+            <div class="formulaire_bouton_rechercher" onclick="">
                 
                 <p class="texte_bouton_rechercher">Rechercher</p>
                 
@@ -47,30 +47,38 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
 
-            </button>
+            </div>
         </form>
 
         <div class="section_filtres">
+            
             <h2 class="h2_formulaire_filtres">Filtres</h2>
             <div class="ensemble_deux_boutons_formulaire_filtres">
-                <button class="button_filters"><i class="fa-sharp fa-solid fa-money-bill-wave"></i><h2 class="h2_bouton_formulaire_filtres">Économique</h2></button>
-                <button class="button_filters"><i class="fa-solid fa-person"></i><h2 class="h2_bouton_formulaire_filtres">Familial</h2></button>
+                
+                <div class="button_filters"><i class="fa-sharp fa-solid fa-money-bill-wave"></i><h2 class="h2_bouton_formulaire_filtres">Économique</h2></div>
+                
+                <div class="button_filters"><i class="fa-solid fa-person"></i><h2 class="h2_bouton_formulaire_filtres">Familial</h2></div>
+
             </div>
+
             <div class="ensemble_deux_boutons_formulaire_filtres">
-                <button class="button_filters"><i class="fa-solid fa-heart"></i><h2 class="h2_bouton_formulaire_filtres">Romantique</h2></button>
-                <button class="button_filters"><i class="fa-solid fa-dog"></i><h2 class="h2_bouton_formulaire_filtres">Animaux autorisés</h2></button>
+
+                <div class="button_filters"><i class="fa-solid fa-heart"></i><h2 class="h2_bouton_formulaire_filtres">Romantique</h2></div>
+
+                <div class="button_filters"><i class="fa-solid fa-dog"></i><h2 class="h2_bouton_formulaire_filtres">Animaux autorisés</h2></div>
+
             </div>
         </div>
 
-        <span class="formulaire_span_de_fin">
+        <div class="formulaire_div_de_fin">
 
             <div class="div_vignette_info">
                 <p class="vignette_info">i</p>
             </div>
 
-            <h2 class="commentaire_span_de_fin">Plus de 500 logements sont disponibles dans cette ville</h2>
+            <h2 class="commentaire_div_de_fin">Plus de 500 logements sont disponibles dans cette ville</h2>
 
-        </span>
+        </div>
     </section>
 
     <!-- Corps de texte (main) -->

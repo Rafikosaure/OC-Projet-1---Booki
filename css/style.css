@@ -133,18 +133,6 @@ form {
     display : none;
 }
 
-@media screen and (max-width: 768px) {
-
-    .icone_loupe_rechercher {
-        display : block;
-    }
-
-    .texte_bouton_rechercher {
-        display: none;
-    }
-
-}
-
 .formulaire_bouton_rechercher:active {
     background-color: blue;
 }
@@ -198,6 +186,7 @@ form {
     height: 50px;
     color: #0065FC;
     font-size: 22px;
+    white-space: nowrap;
 }
 
 .button_filters:hover {
@@ -281,7 +270,7 @@ main {
 .div_serie_de_trois_cartes {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     justify-content: center;
 }
 
@@ -294,7 +283,7 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
     transition: 0.3s;
-    width: 245px;
+    width: 230px;
     height: fit-content;
     margin: 20px;
 }
@@ -556,6 +545,118 @@ footer {
 .footer_link {
     text-decoration: none;
     color: black;
+}
+
+
+
+
+
+/************** Partie Responsive Design **************/
+/******************************************************/
+
+
+
+/* Ici : media queries pour la partie tablette */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .nav_header {
+        margin-right: 0;
+    }
+
+    .header_button {
+        width: 130px;
+    }
+
+    .button_filters {
+        margin: 0 14px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: fit-content;
+        flex-basis: auto;
+        white-space: nowrap;
+    }
+
+    .section_filtres {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section_hebergements_et_populaires {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: fit-content;
+        margin-bottom: 300px;
+    }
+
+    .section_hebergements {
+        width: 100%;
+        min-width: 850px;
+    }
+
+    .section_article {
+        width: auto;
+        min-width: 860px;
+        margin-top: 45px;
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .conteneur_cartes_les_plus_populaires {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .h2_card_description_text_plus_populaires {
+        font-size: 16px;
+    }
+
+    .h3_card_description_text_plus_populaires {
+        line-height: normal;
+        font-size: 13px;
+    }
+
+    
+
+    
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ici : media queries pour la partie mobile */
+
+@media screen and (max-width: 768px) {
+
+    .icone_loupe_rechercher {
+        display : block;
+    }
+
+    .texte_bouton_rechercher {
+        display: none;
+    }
+
 }
 
 

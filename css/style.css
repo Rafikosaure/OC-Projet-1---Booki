@@ -145,7 +145,7 @@ form {
 
 }
 
-.formulaire_bouton_rechercher:hover {
+.formulaire_bouton_rechercher:active {
     background-color: blue;
 }
 

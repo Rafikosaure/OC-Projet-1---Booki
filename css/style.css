@@ -166,13 +166,6 @@ form {
     line-height: 20px;
 }
 
-/*
-.ensemble_deux_boutons_formulaire_filtres {
-    display: flex;
-    flex-direction: row;
-}
-*/
-
 .ensemble_boutons_formulaire_filtres {
     display: flex;
     flex-direction: row;
@@ -260,8 +253,6 @@ main {
     padding-top: 25px;
     padding-bottom: 30px;
     min-width: 800px;
-    /* padding-right: 10px;
-    margin-right: 10px; */
 }
 
 .div_toutes_les_cartes {
@@ -781,6 +772,108 @@ footer {
         margin-top: 9px;
     }
 
+    main {
+        width: auto;
+    }
+
+    .section_hebergements_et_populaires {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .section_article {
+        width: auto;
+        min-width: auto;
+        height: 715px;
+        border-radius: 0;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .div_icone_courbe_montante {
+        font-size: 20px;
+    }
+
+    .carte_les_plus_populaires {
+        display: flex;
+        flex-direction: row;
+        /*
+        width: 410px;
+        */
+        width: 80%;
+        max-width: 470px;
+        height: fit-content;
+        margin: 15px;
+    }
+
+    .card_description_plus_populaires {
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+
+    .section_hebergements {
+        background-color: initial;
+        border-radius: 0;
+        width: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        min-width: auto;
+    }
+
+    .titre1_section_hebergements_marseille {
+        text-indent: 37px;
+    }
+
+    .div_toutes_les_cartes {
+        width: 100%;
+        height: 100%;
+    }
+
+    .div_serie_de_trois_cartes {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .carte_hebergements {
+        width: 80%;
+        max-width: 470px;
+        height: 220px;
+        margin: 15px;
+    }
+
+    .carte_clic {
+        width: 100%;
+        height: 100%;
+    }    
+
+    .image_carte_hebergement {
+        width: auto;
+        height: 65%;
+        object-fit: cover;
+    }
+    
+    .card_description {
+        width: auto;
+        height: 35%;
+        font-size: 12px;
+        line-height: 0;
+        padding-top: 2px;
+        padding-left: 6px;
+    }
+
+    .h2_style_gras {
+        font-size: 17px;
+    }
+
+    .hebergements_afficher_plus {
+        display: none;
+    }
 
 
 }

@@ -742,6 +742,7 @@ footer {
         text-decoration: none;
         color: black;
         border-bottom: solid 2px #d9d9d9;
+        border-top: transparent;
     }
 
     .header_button:hover {

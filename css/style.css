@@ -46,10 +46,11 @@ header {
     font-size: 18px;
     text-decoration: none;
     color: black;
+    border-top: solid 2px transparent;
 }
 
-/* Attention : bordure bleue au dessus en desktop, 
-mais bien la placer en dessous en mobile ! */
+/* Attention : bordure bleue au dessus en desktop 
+et tablette, mais en dessous en mobile ! */
 .header_button:hover {
     border-top: solid 2px #0065FC;
     color: #0065FC;
@@ -525,8 +526,10 @@ footer {
     width: auto;
     background-color: #F2F2F2;
     height: 225px;
+    /*
     margin-left: 20px;
     margin-right: 20px;
+    */
     min-width: 1220px;
 }
 
@@ -564,8 +567,15 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+
     header {
         justify-content: space-between;
+        width: 100%;
     }
 
     .nav_header {
@@ -585,36 +595,44 @@ footer {
     }
 
     .button_filters {
-        margin: 0 14px;
+        margin: 0 12px;
         padding-left: 16px;
         padding-right: 16px;
         width: fit-content;
         flex-basis: auto;
+        max-width: 30%;
+        white-space: normal;
     }
 
     .section_filtres {
         width: 100%;
+        max-width: 785px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    main {
+        align-items: center;
     }
 
     .section_hebergements_et_populaires {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 100%;
         margin-left: 10px;
         margin-right: 10px;
         height: fit-content;
+        justify-content: center;
     }
 
     .section_hebergements {
-        width: auto;
-        min-width: 850px;
+        width: 100%;
+        min-width: 800px;
     }
 
     .section_article {
-        width: auto;
-        min-width: 850px;
+        width: 100%;
+        min-width: 800px;
         margin-top: 45px;
         margin-left: 0px;
         padding-top: 20px;
@@ -638,7 +656,7 @@ footer {
     }
 
     .Activites_a_Marseille {
-        min-width: 850px;
+        min-width: 800px;
         margin-bottom: 70px;
     }
 
@@ -668,8 +686,13 @@ footer {
     }
     
     footer {
-        min-width: 850px;
+        min-width: 800px;
     }
+
+    .footer_section {
+        padding-left: 50px;
+    }
+
 }
 
 

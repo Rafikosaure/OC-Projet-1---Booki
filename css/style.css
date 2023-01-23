@@ -406,7 +406,7 @@ main {
 .image_carte_plus_populaires {
     border-radius: 20px 0 0 20px;
     border: solid 5px white;
-    width: 35%;
+    width: 40%;
     min-width: 40%;
     height: 160px;
     object-fit: cover;
@@ -433,7 +433,7 @@ main {
     justify-content: space-between;
     padding-left: 4px;
     padding-right: 4px;
-    width: 65%;
+    width: 60%;
     background-color: white;
     border: solid 5px white;
     border-radius: 0 20px 20px 0;
@@ -580,6 +580,10 @@ footer {
         width: 130px;
     }
 
+    .h2_formulaire_filtres {
+        margin-right: 10px;
+    }
+
     .ensemble_boutons_formulaire_filtres {
         width: auto;
         /*
@@ -589,13 +593,13 @@ footer {
     }
 
     .bouton_filtres {
-        margin: 0 12px;
+        margin: 0 10px;
         padding-left: 16px;
         padding-right: 16px;
         width: fit-content;
         flex-basis: auto;
         max-width: 30%;
-        white-space: normal;
+        white-space: nowrap;
     }
 
     .section_filtres {
@@ -612,9 +616,9 @@ footer {
     .section_hebergements_et_populaires {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 95%;
+        margin-left: 12px;
+        margin-right: 12px;
         height: fit-content;
         justify-content: center;
     }
@@ -638,7 +642,12 @@ footer {
         flex-direction: row;
         width: 100%;
         margin-bottom: 20px;
+        justify-content: center;
     }
+    
+    .carte_les_plus_populaires {
+        width: 268px;
+    } 
 
     .h2_texte_de_description_des_cartes_plus_populaires {
         font-size: 16px;

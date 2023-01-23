@@ -37,7 +37,7 @@ header {
     height: 46px;
 }
 
-.header_button {
+.header_bouton {
     line-height: 85px;
     width: 186px;
     height: 100%;
@@ -51,7 +51,7 @@ header {
 
 /* Attention : bordure bleue au dessus en desktop 
 et tablette, mais en dessous en mobile ! */
-.header_button:hover {
+.header_bouton:hover {
     border-top: solid 2px #0065FC;
     color: #0065FC;
 }
@@ -171,7 +171,7 @@ form {
     flex-direction: row;
 }
 
-.button_filters {
+.bouton_filtres {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -189,7 +189,7 @@ form {
     white-space: nowrap;
 }
 
-.button_filters:hover {
+.bouton_filtres:hover {
     background-color: #DEEBFF;
 }
 
@@ -225,8 +225,8 @@ form {
 }
 
 
-/* Code CSS du corps de texte (sections : "Hébergements", 
-"Les plus populaires" & "Activités à Marseille") */
+/* Code CSS du "main", le corps de texte (sections : 
+"Hébergements", "Les plus populaires" & "Activités à Marseille") */
 main {
     display: flex;
     flex-direction: column;
@@ -298,9 +298,6 @@ main {
 
 .image_carte_hebergement {
     border-radius: 20px 20px 0 0;
-    /*
-    border: solid 5px white;
-    */
     width: 100%;
     max-width: 100%;
     height: 120px;
@@ -308,7 +305,7 @@ main {
     object-fit: cover;
 }
 
-.card_description {
+.carte_description {
     display: flex;
     flex-direction: column;
     text-indent: 10px;
@@ -317,17 +314,14 @@ main {
     border-radius: 0 0 20px 20px;
     line-height: 2px;
     width: 100%;
-    /*
-    border: solid 5px white;
-    */
     font-size: 13px;
 }
 
-.€_bold {
+.€_gras {
     font-weight: bold;
 }
 
-.stars_in_blue {
+.etoiles_en_bleu {
     color: #0065FC;
     display: flex;
     align-items: flex-start;
@@ -337,7 +331,7 @@ main {
     text-indent: 1px;
 }
 
-.star_in_grey {
+.etoiles_en_gris {
     color: #F2F2F2;
 }
 
@@ -418,7 +412,7 @@ main {
     object-fit: cover;
 }
 
-.card_description_text_plus_populaires {
+.texte_de_description_des_cartes_plus_populaires {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -426,14 +420,14 @@ main {
     line-height: 5px;
 }
 
-.h2_card_description_text_plus_populaires {
+.h2_texte_de_description_des_cartes_plus_populaires {
     font-weight: bold;
     line-height: 22px;
     height: fit-content;
     margin-bottom: -2px;
 }
 
-.card_description_plus_populaires {
+.description_cartes_plus_populaires {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -447,7 +441,7 @@ main {
     height: auto;
 }
 
-.stars_in_blue_populaires {
+.etoiles_en_bleu_populaires {
     color: #0065FC;
     display: flex;
     justify-content: start;
@@ -543,13 +537,13 @@ footer {
     flex: 1;
 }
 
-.footer_list {
+.footer_liste {
     list-style: none;
     padding-left: 0;
     line-height: 35px;
 }
 
-.footer_link {
+.footer_lien {
     text-decoration: none;
     color: black;
 }
@@ -582,7 +576,7 @@ footer {
         margin-right: 0;
     }
 
-    .header_button {
+    .header_bouton {
         width: 130px;
     }
 
@@ -594,7 +588,7 @@ footer {
         justify-content: flex-start;
     }
 
-    .button_filters {
+    .bouton_filtres {
         margin: 0 12px;
         padding-left: 16px;
         padding-right: 16px;
@@ -646,11 +640,11 @@ footer {
         margin-bottom: 20px;
     }
 
-    .h2_card_description_text_plus_populaires {
+    .h2_texte_de_description_des_cartes_plus_populaires {
         font-size: 16px;
     }
 
-    .h3_card_description_text_plus_populaires {
+    .h3_texte_description_carte_plus_populaires {
         line-height: normal;
         font-size: 13px;
     }
@@ -733,7 +727,7 @@ footer {
         margin-left: 0;
     }
     
-    .header_button {
+    .header_bouton {
         line-height: 0;
         width: 50%;
         text-align: center;
@@ -745,7 +739,7 @@ footer {
         border-top: transparent;
     }
 
-    .header_button:hover {
+    .header_bouton:hover {
         border-top: none;
         border-bottom: solid 2px #0065FC;
     }
@@ -799,7 +793,7 @@ footer {
         justify-content: space-between;
     }
 
-    .button_filters {
+    .bouton_filtres {
         margin-right: 2px;
         margin-left: 2px;
         width: 35%;
@@ -862,11 +856,11 @@ footer {
         margin: 15px;
     }
 
-    .card_description_plus_populaires {
+    .description_cartes_plus_populaires {
         max-height: 100%;
     }
 
-    .card_description_text_plus_populaires {
+    .texte_de_description_des_cartes_plus_populaires {
         line-height: normal;
         max-height: 100%;
         font-size: 14px;
@@ -919,7 +913,7 @@ footer {
         object-fit: cover;
     }
     
-    .card_description {
+    .carte_description {
         width: auto;
         height: 35%;
         font-size: 12px;

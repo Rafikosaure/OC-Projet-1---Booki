@@ -286,7 +286,7 @@ form {
     width: auto;
 }
 
-.titre1_section_hebergements_marseille {
+.titre1_section {
     margin-left: 5%;
     font-weight: 700;
     font-size: 26px;
@@ -382,7 +382,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 37px;
+    padding-left: 10px;
     padding-right: 42px;
     font-weight: 700;
 }
@@ -653,6 +653,10 @@ footer {
         padding-bottom: 20px;
     }
 
+    .div_titre_les_plus_populaires_avec_icone_courbe_montante {
+        padding-left: 0;
+    }
+
     .conteneur_cartes_les_plus_populaires {
         display: flex;
         flex-direction: row;
@@ -875,6 +879,10 @@ footer {
         margin-left: 0px;
         padding-top: 10px;
         padding-bottom: 5px;
+    }
+
+    .div_titre_les_plus_populaires_avec_icone_courbe_montante {
+        padding-left: 0;
     }
 
     .div_icone_courbe_montante {

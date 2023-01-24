@@ -6,7 +6,7 @@ body {
 }
 
 
-/* Début de page : header & section "Formulaire" */
+/* Début de page : "header" */
 header {
     display: flex;
     flex-direction: row;
@@ -56,6 +56,14 @@ et tablette, mais en dessous en mobile ! */
     color: #0065FC;
 }
 
+
+/* Code CSS du "main", le corps de texte (sections : "Formulaire", 
+"Hébergements", "Les plus populaires" & "Activités à Marseille") */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-size: 26px;
 }
@@ -75,6 +83,11 @@ h3 {
 
 .h2_formulaire_de_recherche {
     margin-top: -10px;
+}
+
+.h1_section_formulaire_de_recherche {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .section_formulaire_de_recherche {
@@ -127,6 +140,7 @@ form {
     font-size: 18px;
     color: white;
     line-height: 21px;
+    cursor: pointer;
 }
 
 .icone_loupe_rechercher {
@@ -224,15 +238,6 @@ form {
     font-size: 16px;
 }
 
-
-/* Code CSS du "main", le corps de texte (sections : 
-"Hébergements", "Les plus populaires" & "Activités à Marseille") */
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .section_hebergements_et_populaires {
     display: flex;
     flex-direction: row;
@@ -269,8 +274,9 @@ main {
 }
 
 .titre1_section_hebergements_marseille {
-    text-indent: 40px;
+    margin-left: 5%;
     font-weight: 700;
+    font-size: 26px;
 }
 
 .carte_hebergements {
@@ -352,7 +358,7 @@ main {
 
 
 /* Ici : section "Les plus populaires" */
-.section_article {
+.section_les_plus_populaires {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -469,6 +475,11 @@ main {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 55px;
+}
+
+#Activites {
+    font-weight: 700;
+    font-size: 26px;
 }
 
 .ensemble_cartes_Activites_a_Marseille {
@@ -616,7 +627,7 @@ footer {
     }
 
     main {
-        align-items: center;
+        align-items: baseline;
     }
 
     .section_hebergements_et_populaires {
@@ -634,7 +645,7 @@ footer {
         min-width: 800px;
     }
 
-    .section_article {
+    .section_les_plus_populaires {
         width: 100%;
         min-width: 800px;
         margin-top: 45px;
@@ -759,6 +770,16 @@ footer {
         border-bottom: solid 2px #0065FC;
     }
 
+    .div_titres_section_formulaire_de_recherche {
+        width: 100%;
+    }
+
+    .h1_section_formulaire_de_recherche {
+        width: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .section_formulaire_de_recherche {
         justify-content: center;
         width: auto;
@@ -845,7 +866,7 @@ footer {
         margin-right: 0px;
     }
 
-    .section_article {
+    .section_les_plus_populaires {
         width: auto;
         min-width: auto;
         height: 715px;
@@ -888,14 +909,6 @@ footer {
         padding-top: 10px;
         padding-bottom: 30px;
         min-width: auto;
-    }
-
-    .titre1_section_hebergements_marseille {
-        /*
-        text-indent: 37px;
-        */
-        text-indent: initial;
-        margin-left: 5%;
     }
 
     .div_toutes_les_cartes {

@@ -47,17 +47,18 @@ header {
 }
 
 .li_header_bouton {
+    display: flex;
     width: 50%;
-    height: 100%;
-    text-align: center;
-    line-height: 110px;
+    height: 50%;
     font-weight: bold;
     font-size: 18px;
     list-style: none;
 }
 
 .ancre_header_bouton {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     text-decoration: none;
     height: 100%;
     width: 186px;
@@ -744,7 +745,7 @@ footer {
         width: 100%;
         justify-content: center;
         margin-left: 0;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-top: 10px;
     }
     
@@ -758,15 +759,19 @@ footer {
 
     .ul_header_bouton {
         width: 100%;
+        height: 70px;
     }
 
     .li_header_bouton {
         width: 50%;
+        height: 100%;
+        background-color: aquamarine;
     }
     
     .ancre_header_bouton {
-        padding-bottom: 8px;
         width: 100%;
+        height: 100%;
+        line-height: 70px;
         text-align: center;
         font-weight: bold;
         font-size: 18px;

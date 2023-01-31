@@ -34,7 +34,7 @@ header {
     margin-right: 24px;
     margin-left: 0;
     width: 372px;
-    height: 46px;
+    height: auto;
 }
 
 .ul_header_bouton {
@@ -43,13 +43,14 @@ header {
     display: flex;
     flex-direction: row;
     padding-left: 0;
+    margin-top: 0;
 }
 
 .li_header_bouton {
     width: 50%;
     height: 100%;
-    line-height: 85px;
     text-align: center;
+    line-height: 110px;
     font-weight: bold;
     font-size: 18px;
     list-style: none;

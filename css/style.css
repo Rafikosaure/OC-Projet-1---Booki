@@ -582,7 +582,7 @@ footer {
 
 
 /* Ici : media queries pour la partie tablette */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
 
     body {
         width: auto;
@@ -882,6 +882,11 @@ footer {
         margin-left: 0px;
         padding-top: 10px;
         padding-bottom: 5px;
+    }
+
+    .conteneur_cartes_les_plus_populaires {
+        display: flex;
+        flex-direction: column;
     }
 
     .div_titre_les_plus_populaires_avec_icone_courbe_montante {

@@ -724,7 +724,11 @@ footer {
 @media screen and (max-width: 767px) {
 
     body {
-        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
     header {
@@ -781,28 +785,43 @@ footer {
         border-bottom: solid 2px #0065FC;
     }
 
-    .div_titres_section_formulaire_de_recherche {
+    main {
         width: 100%;
+        margin: auto;
+        padding: auto;
     }
 
     .h1_section_formulaire_de_recherche {
-        width: auto;
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .div_titres_section_formulaire_de_recherche {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+    }
+
+    .h2_formulaire_de_recherche {
+        margin-left: 10px;
     }
 
     .section_formulaire_de_recherche {
-        justify-content: center;
-        width: auto;
-        padding-left: 5%;
-        padding-right: 5%;
-        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
     }
 
     form {
         width: 80%;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
     }
 
@@ -825,198 +844,40 @@ footer {
 
     .section_filtres {
         width: auto;
-        max-width: 100%;
         flex-direction: column;
         align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .h2_formulaire_filtres {
+        margin-left: 10px;
+        margin-right: 0;
     }
 
     .ensemble_boutons_formulaire_filtres {
-        width: auto;
-        min-width: 100%;
+        width: 100%;
+        margin: 0;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
 
     .bouton_filtres {
-        margin-right: 2px;
-        margin-left: 2px;
-        width: 35%;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 5px;
+        width: 40%;
         height: 45px;
+        flex-basis: none;
         font-size: 17px;
         font-weight: bold;
         min-width: 110px;
+        max-width: none;
         white-space: initial;
         margin-bottom: 15px;
         justify-content: flex-start;
-    }
-
-    .formulaire_div_de_fin {
-        margin-top: 0;
-        margin-bottom: 30px;
-        display: inline-flex;
-        align-items: flex-start;
-        height: fit-content;
-    }
-
-    .div_vignette_info {
-        margin-top: 9px;
-    }
-
-    main {
-        width: auto;
-    }
-
-    .section_hebergements_et_populaires {
-        flex-direction: column-reverse;
-        width: 100%;
-        height: auto;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .section_les_plus_populaires {
-        width: auto;
-        min-width: auto;
-        height: 715px;
-        border-radius: 0;
-        margin-left: 0px;
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
-
-    .conteneur_cartes_les_plus_populaires {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .div_titre_les_plus_populaires_avec_icone_courbe_montante {
-        padding-left: 0;
-    }
-
-    .div_icone_courbe_montante {
-        font-size: 20px;
-    }
-
-    .carte_les_plus_populaires {
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        max-width: 470px;
-        height: 158px;
-        margin: 15px;
-    }
-
-    .description_cartes_plus_populaires {
-        max-height: 100%;
-    }
-
-    .texte_de_description_des_cartes_plus_populaires {
-        line-height: normal;
-        max-height: 100%;
-        font-size: 14px;
-    }
-
-    .section_hebergements {
-        background-color: initial;
-        border-radius: 0;
-        width: auto;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        min-width: auto;
-    }
-
-    .div_toutes_les_cartes {
-        width: 100%;
-        height: 100%;
-    }
-
-    .div_serie_de_trois_cartes {
-        flex-direction: column;
-        height: 100%;
-        align-items: center;
-        width: 100%;
-    }
-    
-    .carte_hebergements {
-        width: 80%;
-        max-width: 470px;
-        height: 220px;
-        margin: 15px;
-    }
-
-    .carte_clic {
-        width: 100%;
-        height: 100%;
-    }    
-
-    .image_carte_hebergement {
-        width: auto;
-        height: 65%;
-        object-fit: cover;
-    }
-    
-    .carte_description {
-        width: auto;
-        height: 35%;
-        font-size: 12px;
-        line-height: 0;
-        padding-top: 2px;
-        padding-left: 6px;
-    }
-
-    .h2_style_gras {
-        font-size: 17px;
-    }
-
-    .hebergements_afficher_plus {
-        display: none;
-    }
-
-    .Activites_a_Marseille {
-        width: auto;
-        min-width: auto;
-        margin-top: 60px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 70px;
-    }
-
-    #Activites {
-        text-indent: 0px;
-        margin-bottom: 0px;
-        margin-left: 37px;
-        max-width: 130px;
-    }
-
-    .ensemble_cartes_Activites_a_Marseille {
-        flex-direction: column;
-        justify-content: normal;
-        align-items: center;
-    }
-
-    .carte_Activites_a_Marseille {
-        width: 80%;
-        max-width: 470px;
-        height: fit-content;
-        margin: 15px;
-    }
-
-    .photo_Marseille {
-        height: 160px;
-    }
-    
-    .description_carte_Activites_a_Marseille {
-        height: 60px;
-    }
-
-    footer {
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-bottom: 30px;
-        min-width: auto;
     }
 }
 

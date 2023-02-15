@@ -282,7 +282,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: auto;
 }
 
 .div_serie_de_trois_cartes {

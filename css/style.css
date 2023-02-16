@@ -615,6 +615,7 @@ footer {
         margin-right: 0;
         padding-left: 0;
         padding-right: 0;
+        width: 95%;
     }
 
     .h2_formulaire_filtres {
@@ -628,19 +629,23 @@ footer {
 
     .bouton_filtres {
         margin: 0 10px;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 14px;
+        padding-right: 14px;
         width: fit-content;
+        height: 40px;
         flex-basis: auto;
-        max-width: 30%;
         white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .commentaire_bouton_formulaire_filtres {
+        font-size: 14px;
     }
 
     .section_filtres {
         width: 100%;
-        max-width: 785px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     main {
@@ -678,27 +683,31 @@ footer {
 
     .section_les_plus_populaires {
         width: 100%;
-        min-width: 800px;
+        min-width: 735px;
         margin-top: 45px;
-        margin-left: 0px;
+        margin-left: 0;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
     .div_titre_les_plus_populaires_avec_icone_courbe_montante {
         padding-left: 0;
+        width: auto;
     }
 
     .conteneur_cartes_les_plus_populaires {
         display: flex;
         flex-direction: row;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 20px;
         justify-content: center;
     }
     
     .carte_les_plus_populaires {
-        width: 268px;
+        width: 29%;
+        min-width: 20%;
     } 
 
     .h2_texte_de_description_des_cartes_plus_populaires {

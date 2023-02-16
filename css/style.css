@@ -720,7 +720,8 @@ footer {
     }
 
     .Activites_a_Marseille {
-        min-width: 800px;
+        width: 95%;
+        min-width: 735px;
         margin-bottom: 70px;
     }
 
@@ -745,7 +746,7 @@ footer {
     }
 
     .h2_media_queries {
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 14px;
     }
     
@@ -1081,6 +1082,10 @@ footer {
     
     .description_carte_Activites_a_Marseille {
         height: 60px;
+    }
+
+    .h2_media_queries {
+        font-size: 16px;
     }
 
     footer {

@@ -751,7 +751,8 @@ footer {
     }
     
     footer {
-        min-width: 800px;
+        width: 100%;
+        min-width: 735px;
     }
 
     .footer_section {

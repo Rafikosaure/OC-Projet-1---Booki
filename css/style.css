@@ -599,6 +599,24 @@ footer {
         width: 130px;
     }
 
+    main {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .h1_section_formulaire_de_recherche {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section_formulaire_de_recherche {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .h2_formulaire_filtres {
         margin-right: 10px;
     }
@@ -647,7 +665,6 @@ footer {
     .div_serie_de_trois_cartes {
         width: 100%;
         justify-content: space-between;
-        background-color: aquamarine;
     }
 
     .carte_hebergements {

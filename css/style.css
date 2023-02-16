@@ -600,7 +600,7 @@ footer {
     }
 
     main {
-        width: 100%;
+        width: 95%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -655,7 +655,7 @@ footer {
     .section_hebergements_et_populaires {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         height: fit-content;
@@ -711,7 +711,7 @@ footer {
     } 
 
     .h2_texte_de_description_des_cartes_plus_populaires {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .h3_texte_description_carte_plus_populaires {
@@ -721,7 +721,7 @@ footer {
 
     .Activites_a_Marseille {
         width: 95%;
-        min-width: 735px;
+        min-width: 698px;
         margin-bottom: 70px;
     }
 

@@ -829,7 +829,6 @@ footer {
     main {
         width: 100%;
         margin: auto;
-        padding: auto;
     }
 
     .h1_section_formulaire_de_recherche {
@@ -914,7 +913,6 @@ footer {
         padding-left: 3%;
         width: 36%;
         height: 45px;
-        flex-basis: none;
         font-size: 13px;
         font-weight: bold;
         min-width: 110px;

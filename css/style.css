@@ -3,7 +3,8 @@ body {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
 }
 
 
@@ -11,6 +12,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .logo_booki_header {
@@ -93,6 +95,7 @@ h2 {
 
 .h2_style_gras {
     font-weight: bold;
+    font-size: 16px;
 }
 
 h3 {
@@ -113,6 +116,7 @@ h3 {
     flex-direction: column;
     padding-left: 25px;
     padding-right: 25px;
+    width: 75%;
 }
 
 form {
@@ -137,7 +141,7 @@ form {
 
 .formulaire_champ_de_saisie {
     height: 49px;
-    width: 332px;
+    width: 38%;
     font-weight: bold;
     font-size: 18px;
     border: solid 1px #F2F2F2;
@@ -175,6 +179,8 @@ form {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .h2_formulaire_filtres {
@@ -274,7 +280,6 @@ form {
     width: 70%;
     padding-top: 25px;
     padding-bottom: 30px;
-    min-width: 800px;
 }
 
 .div_toutes_les_cartes {
@@ -287,20 +292,23 @@ form {
 .div_serie_de_trois_cartes {
     display: flex;
     flex-direction: row;
-    width: auto;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .titre1_section {
     margin-left: 5%;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 21px;
 }
 
 .carte_hebergements {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
     transition: 0.3s;
-    width: 222px;
+    width: 27%;
+    min-width: 27%;
     height: fit-content;
     margin: 15px;
     display: flex;
@@ -331,13 +339,13 @@ form {
 .carte_description {
     display: flex;
     flex-direction: column;
-    text-indent: 10px;
+    text-indent: 5px;
     margin-top: -4px;
     background-color: white;
     border-radius: 0 0 20px 20px;
     line-height: 2px;
     width: 100%;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .€_gras {
@@ -375,7 +383,6 @@ form {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 30%;
-    min-width: 390px;
     margin-left: 20px;
     padding-top: 25px;
 }
@@ -417,7 +424,8 @@ form {
     background-color: white;
     display: flex;
     flex-direction: row;
-    width: 343px;
+    width: 85%;
+    min-width: 85%;
     height: fit-content;
     margin: 15px;
 }
@@ -439,13 +447,15 @@ form {
     flex-direction: column;
     justify-content: start;
     height: 80%;
-    line-height: 5px;
-    padding-left: 10px;
+    font-size: 14px;
+    padding-left: 6px;
+    padding-right: 2px;
 }
 
 .h2_texte_de_description_des_cartes_plus_populaires {
     font-weight: bold;
     line-height: 22px;
+    font-size: 16px;
     height: fit-content;
     margin-bottom: -2px;
 }
@@ -472,7 +482,7 @@ form {
     line-height: 0;
     text-indent: 1px;
     margin-bottom: 8px;
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 
@@ -481,7 +491,6 @@ form {
     display: flex;
     flex-direction: column;
     width: auto;
-    min-width: 1220px;
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -490,7 +499,7 @@ form {
 
 #Activites {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 21px;
 }
 
 .ensemble_cartes_Activites_a_Marseille {
@@ -528,10 +537,11 @@ form {
 }
 
 .description_carte_Activites_a_Marseille {
-    width: 100%;
+    width: auto;
     border-radius: 0 0 20px 20px;
-    height: 56px;
-    text-indent: 16px;
+    height: 66px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: white;
 }
 
@@ -548,7 +558,6 @@ footer {
     width: auto;
     background-color: #F2F2F2;
     height: 225px;
-    min-width: 1220px;
 }
 
 .footer_titre {
@@ -616,6 +625,10 @@ footer {
         padding-left: 0;
         padding-right: 0;
         width: 95%;
+    }
+
+    .formulaire_champ_de_saisie {
+        width: 50%;
     }
 
     .h2_formulaire_filtres {
@@ -716,7 +729,7 @@ footer {
 
     .h3_texte_description_carte_plus_populaires {
         line-height: normal;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .Activites_a_Marseille {
@@ -740,9 +753,11 @@ footer {
     
     .description_carte_Activites_a_Marseille {
         height: 52px;
+        width: auto;
         text-indent: 0;
         display: flex;
         align-items: center;
+        padding-left: 0;
     }
 
     .h2_media_queries {
@@ -848,6 +863,7 @@ footer {
 
     .h2_formulaire_de_recherche {
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     .section_formulaire_de_recherche {
@@ -864,13 +880,18 @@ footer {
         margin-right: auto;
         justify-content: center;
     }
-
+ 
     .div_icone_recherche {
-        width: 115px;
+        width: auto;
         min-width: 14%;
     }
 
+    .formulaire_champ_de_saisie {
+        width: 50%;
+    }
+
     .formulaire_bouton_rechercher {
+        width: auto;
         min-width: 14%;
     }
 
@@ -1006,6 +1027,7 @@ footer {
         height: 100%;
         align-items: center;
         width: 100%;
+        margin-top: 0;
     }
     
     .carte_hebergements {
@@ -1096,8 +1118,6 @@ footer {
         padding-bottom: 30px;
         min-width: auto;
     }
-
-
 }
 
 

@@ -1002,6 +1002,10 @@ footer {
         max-height: 100%;
     }
 
+    .h2_texte_de_description_des_cartes_plus_populaires {
+        font-size: 16px;
+    }
+
     .texte_de_description_des_cartes_plus_populaires {
         line-height: normal;
         max-height: 100%;
